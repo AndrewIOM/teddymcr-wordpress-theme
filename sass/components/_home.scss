@@ -1,0 +1,142 @@
+  @import '../_variables';
+  
+@media(min-width:$size-medium) {
+    .home-jumbo-left {
+        width:60%;
+        h1 {
+            font-size: auto;
+        }
+    }
+
+    #home-figures {
+        text-align:center;
+    }
+
+    #home-about {
+        .description {
+            text-align: left;
+        }
+        .feature-image {
+            text-align: right; 
+        }  
+    }
+}
+
+  #home-jumbo {
+    height: 460px !important;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    color:white;
+    background-color: grey;
+    background-position: left center;
+  }
+
+  .home-jumbo-left {
+    margin-top: 300px;
+    float: left;
+    width: 80%;
+    h1 {
+        font-size: 1.8em;
+    }
+  }
+
+  #home-jumbo .home-jumbo-buttons .btn-outline {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+.home-section {
+    padding: 2em 0;
+}
+
+#home-figures {
+    color:#fff;
+    background-color: $brand-primary;
+    text-align:center;
+}
+
+#home-about {
+    text-align: center;
+}
+
+.number-big {
+    font-size: 2em;
+    display:block;
+    line-height:1em;
+}
+
+.title-font {
+    font-family: 'Arbutus Slab', serif;
+}
+
+/* News Page */
+.news-block {
+    padding: 1em 2em;
+
+    img {
+        width: 10em;
+        height: auto;
+        border: 1px solid lightgrey;
+        padding: 5px;
+        background-color: white;
+        float: left;
+        margin: 1em 1em 0 0;
+    }
+}
+
+.side-block {
+    img {
+        max-width:40%;
+        height: auto;
+        border: 1px solid lightgrey;
+        padding: 5px;
+        background-color: white;
+        float: left;
+        margin: 1em 1em 0 0;
+    }
+}
+
+    .news-block.side-block, .side-block {
+        background-color: #FAF7F7;
+        border: none;
+    }
+
+        .news-block h3, .side-block h3 {
+            border-bottom: 2px solid $brand-primary;
+            color: black;
+            padding-bottom: 10px;
+            margin-top: 0.4em;
+            margin-bottom: 1em;
+        }
+
+    .news-post .framed.full-width, .news-thumbnail.full-width {
+        width: 100%;
+    }
+
+.news-post {
+    border-bottom: 0.1em solid lightgrey;
+    padding-bottom: 2em;
+    margin-top: 2em;
+}
+
+    .news-post h3 {
+        margin-top: 0;
+    }
+
+    .news-post h4 small {
+        display: block;
+    }
+
+.timestamp {
+    color: grey;
+}
+
+.current-page-ancestor {
+    a {
+        color: $brand-secondary;
+    }
+}

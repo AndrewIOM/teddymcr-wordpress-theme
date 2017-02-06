@@ -1,0 +1,36 @@
+{
+  "name": "teddyhall-mcr-2016",
+  "version": "1.0",
+  "homepage": "http://mcr.seh.ox.ac.uk",
+  "authors": [
+    "Andrew Martin <AndrewIOM@users.noreply.github.com>"
+  ],
+  "description": "The Teddy Hall MCR theme was developed for the academic year 2016/17 onwards. A colourful, modern design based on bootstrap 4.",
+  "moduleType": "globals",
+  "main": [
+    "sass/theme.scss"
+  ],
+    "keywords": [
+      "bootstrap",
+      "underscores",
+      "wordpress",
+      "_s",
+      "sass"
+    ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.6.3",
+    "_s": "https://github.com/Automattic/_s.git",
+    "understrap": "0.4.7",
+    "bootstrap": "v4.0.0-alpha.3",
+    "tether": "~1.3.2"
+  },
+  "_source": "https://github.com/AndrewIOM/teddy-mcr.git",
+  "_target": "master",
+  "_originalSource": "understrap-child"
+}

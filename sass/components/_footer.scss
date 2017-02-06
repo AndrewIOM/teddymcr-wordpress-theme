@@ -1,0 +1,68 @@
+@import '../_variables';
+
+@media(min-width:$size-medium) 
+{
+    footer {
+        .col-md-3 {
+            text-align:right;
+        }
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 17em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17em;
+    background-color: $brand-primary;
+    color: #fff;
+    margin-top: 5em;
+
+    a {
+        color: #fff;
+    }
+}
+
+.footer-logo {
+    max-height:6em;
+}
+
+.page-content {
+    padding-bottom: 5em;
+}
+
+footer .container {
+    padding-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2em;
+    padding-left: 0;
+}
+
+.footer-images img {
+    height: 5em;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+@media(max-width:992px) {
+    footer {
+        position: relative;
+        height: auto;
+    }
+
+    body {
+        margin-bottom: 0;
+    }
+}

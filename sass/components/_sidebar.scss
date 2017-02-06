@@ -1,0 +1,31 @@
+/* Side Menu */
+.submenu {
+    padding-left:0;
+    list-style:none;
+    background-color: #faf7f7;
+    padding: 1em;
+
+    li {
+        padding-bottom: 0.5em;
+    }
+
+    .page_item_has_children li {
+        padding-left: 1.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        font-size:0.8em;
+    }
+
+    ul {
+        padding-left:0;
+        list-style: none;
+    }
+}
+
+.current_page_item {
+    font-weight: bold;
+}
+
+.current_page_item li {
+    font-weight: normal;
+}

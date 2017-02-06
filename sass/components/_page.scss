@@ -1,0 +1,64 @@
+@import '../_variables';
+
+@media (min-width:544px) {
+    .title-banner.noimage {
+        height: 15em !important;
+    }
+}
+
+@media (min-width:992px) {
+    .title-banner.noimage {
+        height: 12em !important;
+    }
+}
+
+.title-banner {
+    //TODO Remove !important flags from background properties
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    width: 100%;
+    color:white;
+    background-color: $brand-secondary;
+    background-position: left center;
+    height: 25em;
+    margin-bottom: 1em;
+    overflow: hidden;
+
+    .title {
+        padding-top:1em;
+        padding-bottom:1em;
+
+        position: absolute ;
+        bottom: 0;
+    }
+}
+
+.title-banner.noimage {
+    height: 10em;
+    color: black;
+}
+
+.main-content {
+    padding-bottom:2em;
+}
+
+.meta {
+    text-align: right;
+}
+
+.post-image {
+    text-align: center;
+    img {
+        max-height:20em;
+        width:auto;    
+    }
+}
+
+.nav-next {
+    float: right;
+}
+
+.flag-container {
+    display: none;
+}

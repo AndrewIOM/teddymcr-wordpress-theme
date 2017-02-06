@@ -1,0 +1,129 @@
+@import '../_variables';
+
+@media (min-width:$size-medium) {
+    .navbar-transparent {
+        .navbar-collapse {
+            background: none;
+        }
+    }
+
+    .navbar-brand {
+        width:80%;
+        font-size: medium !important;
+    }
+
+    .navbar-header {
+    button {
+        border: none;
+        margin-right: 1.5em;
+        }
+    }
+}
+
+.icon-bar {
+    background-color: $brand-primary;
+}
+
+
+
+a.nav-link {
+    margin-left:0;
+    margin-right:1em;
+}
+
+.navbar-brand {
+    color:black;
+    display:block;
+    font-size: 0.75em;
+    width: 60%;
+}
+
+.navbar {
+    font-family: 'Arbutus Slab', serif;
+    background-color: $navbar-background;
+    transition: 0.5s;
+    opacity: 0.95;
+    border-bottom: 0.1em solid $brand-primary;
+    height:auto;
+}
+
+.navbar-nav > li > a:hover {
+    color: $brand-secondary;
+    transition:0.5s;
+}
+
+.navbar-default .navbar-nav > li > a {
+    line-height: 5em;
+    padding:0 1em;
+    vertical-align: top;
+    transition: 0.25s;
+
+    .btn-dashboard {
+        margin: 1em;
+        line-height: 3em !important;
+        background-color: lightgrey;
+        border: 1px solid purple;
+        color: purple;
+        border-radius: 0.2em;
+    }
+}
+
+.navbar-left {
+    margin-left: 7em;
+}
+
+//Homepage Navbar (integrated - transparent): position 0
+.navbar-transparent {
+    background: none;
+    border-bottom: none;
+
+    .navbar-collapse {
+        background-color: white;
+    }
+
+    .navbar-brand {
+        color:white;
+    }
+
+    .collapse {
+        border-bottom: 1px solid white;
+        background: none;
+    }
+
+    .navbar-nav > li > a {
+        color: white;
+        transition:0.5s;
+    }
+
+    .navbar-nav > li > a:hover {
+        color: $brand-secondary;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .logo-white {
+        position: absolute;
+        opacity: 1;
+    }
+
+    .logo-black {
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+.logo-white {
+  position: absolute;
+  opacity: 0;
+}
+
+.logo-black {
+  position: absolute;
+  opacity: 1;
+}
+
+.current-page-item, .current_page_item {
+    color: $brand-secondary !important;
+}
